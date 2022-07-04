@@ -7,20 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8759864628704849004F99D3 /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759864528704849004F99D3 /* ApiConstants.swift */; };
+		8759864928704B6B004F99D3 /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759864828704B6B004F99D3 /* RegisterModel.swift */; };
+		8759864C28704BBA004F99D3 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759864B28704BBA004F99D3 /* APIManager.swift */; };
+		8759864F287050DD004F99D3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8759864E287050DD004F99D3 /* Alamofire */; };
+		8759865128706129004F99D3 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759865028706129004F99D3 /* LoginModel.swift */; };
+		879B028D286F2537006446CD /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879B028C286F2537006446CD /* MainPageViewController.swift */; };
+		879B0292286F321C006446CD /* OffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879B0291286F321C006446CD /* OffersViewController.swift */; };
+		879B0294286F3230006446CD /* OperationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879B0293286F3230006446CD /* OperationsViewController.swift */; };
+		879B0296286F3244006446CD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879B0295286F3244006446CD /* ProfileViewController.swift */; };
+		87A1B2E0286DFCC900A1ED8B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A1B2DF286DFCC900A1ED8B /* LoginViewController.swift */; };
+		87A1B2E5286DFDF800A1ED8B /* PreLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A1B2E4286DFDF800A1ED8B /* PreLoginViewController.swift */; };
+		87A1B2E7286E101600A1ED8B /* PreLoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A1B2E6286E101600A1ED8B /* PreLoginPresenter.swift */; };
+		87A1B2E9286E13B900A1ED8B /* PreLoginConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A1B2E8286E13B900A1ED8B /* PreLoginConfigurator.swift */; };
+		87A1B2ED286E190800A1ED8B /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A1B2EC286E190800A1ED8B /* RegistrationViewController.swift */; };
 		87F2769B286DFBCA00F5E2CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F2769A286DFBCA00F5E2CD /* AppDelegate.swift */; };
 		87F2769D286DFBCA00F5E2CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F2769C286DFBCA00F5E2CD /* SceneDelegate.swift */; };
-		87F2769F286DFBCA00F5E2CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F2769E286DFBCA00F5E2CD /* ViewController.swift */; };
-		87F276A2286DFBCA00F5E2CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87F276A0286DFBCA00F5E2CD /* Main.storyboard */; };
 		87F276A4286DFBCC00F5E2CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87F276A3286DFBCC00F5E2CD /* Assets.xcassets */; };
 		87F276A7286DFBCC00F5E2CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87F276A5286DFBCC00F5E2CD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8759864528704849004F99D3 /* ApiConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
+		8759864828704B6B004F99D3 /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
+		8759864B28704BBA004F99D3 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		8759865028706129004F99D3 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		879B028C286F2537006446CD /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		879B0291286F321C006446CD /* OffersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersViewController.swift; sourceTree = "<group>"; };
+		879B0293286F3230006446CD /* OperationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsViewController.swift; sourceTree = "<group>"; };
+		879B0295286F3244006446CD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		87A1B2DF286DFCC900A1ED8B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		87A1B2E4286DFDF800A1ED8B /* PreLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreLoginViewController.swift; sourceTree = "<group>"; };
+		87A1B2E6286E101600A1ED8B /* PreLoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreLoginPresenter.swift; sourceTree = "<group>"; };
+		87A1B2E8286E13B900A1ED8B /* PreLoginConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreLoginConfigurator.swift; sourceTree = "<group>"; };
+		87A1B2EC286E190800A1ED8B /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		87F27697286DFBCA00F5E2CD /* mBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87F2769A286DFBCA00F5E2CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87F2769C286DFBCA00F5E2CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		87F2769E286DFBCA00F5E2CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		87F276A1286DFBCA00F5E2CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87F276A3286DFBCC00F5E2CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87F276A6286DFBCC00F5E2CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87F276A8286DFBCC00F5E2CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,12 +54,129 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8759864F287050DD004F99D3 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8759864428704833004F99D3 /* ApiConstants */ = {
+			isa = PBXGroup;
+			children = (
+				8759864528704849004F99D3 /* ApiConstants.swift */,
+			);
+			path = ApiConstants;
+			sourceTree = "<group>";
+		};
+		8759864728704B63004F99D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8759864828704B6B004F99D3 /* RegisterModel.swift */,
+				8759865028706129004F99D3 /* LoginModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8759864A28704B9B004F99D3 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				8759864B28704BBA004F99D3 /* APIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		879B028B286F068D006446CD /* Main Page */ = {
+			isa = PBXGroup;
+			children = (
+				879B028C286F2537006446CD /* MainPageViewController.swift */,
+			);
+			path = "Main Page";
+			sourceTree = "<group>";
+		};
+		879B028E286F31D7006446CD /* Offers */ = {
+			isa = PBXGroup;
+			children = (
+				879B0291286F321C006446CD /* OffersViewController.swift */,
+			);
+			path = Offers;
+			sourceTree = "<group>";
+		};
+		879B028F286F31DE006446CD /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				879B0293286F3230006446CD /* OperationsViewController.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		879B0290286F31FE006446CD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				879B0295286F3244006446CD /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		87A1B2DD286DFCA300A1ED8B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				87F2769A286DFBCA00F5E2CD /* AppDelegate.swift */,
+				87F2769C286DFBCA00F5E2CD /* SceneDelegate.swift */,
+				87F276A3286DFBCC00F5E2CD /* Assets.xcassets */,
+				87F276A5286DFBCC00F5E2CD /* LaunchScreen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		87A1B2DE286DFCB800A1ED8B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				87A1B2EB286E18D000A1ED8B /* Pre Login */,
+				879B028B286F068D006446CD /* Main Page */,
+				879B028E286F31D7006446CD /* Offers */,
+				879B028F286F31DE006446CD /* Operations */,
+				879B0290286F31FE006446CD /* Profile */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		87A1B2E1286DFD5100A1ED8B /* Login Page */ = {
+			isa = PBXGroup;
+			children = (
+				87A1B2DF286DFCC900A1ED8B /* LoginViewController.swift */,
+			);
+			path = "Login Page";
+			sourceTree = "<group>";
+		};
+		87A1B2E3286DFDEA00A1ED8B /* Pre Login Page */ = {
+			isa = PBXGroup;
+			children = (
+				87A1B2E4286DFDF800A1ED8B /* PreLoginViewController.swift */,
+				87A1B2E6286E101600A1ED8B /* PreLoginPresenter.swift */,
+				87A1B2E8286E13B900A1ED8B /* PreLoginConfigurator.swift */,
+			);
+			path = "Pre Login Page";
+			sourceTree = "<group>";
+		};
+		87A1B2EA286E18A900A1ED8B /* Registration Page */ = {
+			isa = PBXGroup;
+			children = (
+				87A1B2EC286E190800A1ED8B /* RegistrationViewController.swift */,
+			);
+			path = "Registration Page";
+			sourceTree = "<group>";
+		};
+		87A1B2EB286E18D000A1ED8B /* Pre Login */ = {
+			isa = PBXGroup;
+			children = (
+				87A1B2E3286DFDEA00A1ED8B /* Pre Login Page */,
+				87A1B2E1286DFD5100A1ED8B /* Login Page */,
+				87A1B2EA286E18A900A1ED8B /* Registration Page */,
+			);
+			path = "Pre Login";
+			sourceTree = "<group>";
+		};
 		87F2768E286DFBCA00F5E2CD = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +196,11 @@
 		87F27699286DFBCA00F5E2CD /* mBank */ = {
 			isa = PBXGroup;
 			children = (
-				87F2769A286DFBCA00F5E2CD /* AppDelegate.swift */,
-				87F2769C286DFBCA00F5E2CD /* SceneDelegate.swift */,
-				87F2769E286DFBCA00F5E2CD /* ViewController.swift */,
-				87F276A0286DFBCA00F5E2CD /* Main.storyboard */,
-				87F276A3286DFBCC00F5E2CD /* Assets.xcassets */,
-				87F276A5286DFBCC00F5E2CD /* LaunchScreen.storyboard */,
+				8759864A28704B9B004F99D3 /* APIManager */,
+				8759864728704B63004F99D3 /* Model */,
+				8759864428704833004F99D3 /* ApiConstants */,
+				87A1B2DD286DFCA300A1ED8B /* App */,
+				87A1B2DE286DFCB800A1ED8B /* Scenes */,
 				87F276A8286DFBCC00F5E2CD /* Info.plist */,
 			);
 			path = mBank;
@@ -83,6 +222,9 @@
 			dependencies = (
 			);
 			name = mBank;
+			packageProductDependencies = (
+				8759864E287050DD004F99D3 /* Alamofire */,
+			);
 			productName = mBank;
 			productReference = 87F27697286DFBCA00F5E2CD /* mBank.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +253,9 @@
 				Base,
 			);
 			mainGroup = 87F2768E286DFBCA00F5E2CD;
+			packageReferences = (
+				8759864D287050DD004F99D3 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 87F27698286DFBCA00F5E2CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +272,6 @@
 			files = (
 				87F276A7286DFBCC00F5E2CD /* LaunchScreen.storyboard in Resources */,
 				87F276A4286DFBCC00F5E2CD /* Assets.xcassets in Resources */,
-				87F276A2286DFBCA00F5E2CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +282,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87F2769F286DFBCA00F5E2CD /* ViewController.swift in Sources */,
+				879B028D286F2537006446CD /* MainPageViewController.swift in Sources */,
+				87A1B2E0286DFCC900A1ED8B /* LoginViewController.swift in Sources */,
+				879B0294286F3230006446CD /* OperationsViewController.swift in Sources */,
+				8759864928704B6B004F99D3 /* RegisterModel.swift in Sources */,
+				879B0296286F3244006446CD /* ProfileViewController.swift in Sources */,
 				87F2769B286DFBCA00F5E2CD /* AppDelegate.swift in Sources */,
+				8759864C28704BBA004F99D3 /* APIManager.swift in Sources */,
+				87A1B2E5286DFDF800A1ED8B /* PreLoginViewController.swift in Sources */,
+				879B0292286F321C006446CD /* OffersViewController.swift in Sources */,
+				87A1B2E7286E101600A1ED8B /* PreLoginPresenter.swift in Sources */,
+				8759865128706129004F99D3 /* LoginModel.swift in Sources */,
+				8759864628704849004F99D3 /* ApiConstants.swift in Sources */,
+				87A1B2ED286E190800A1ED8B /* RegistrationViewController.swift in Sources */,
+				87A1B2E9286E13B900A1ED8B /* PreLoginConfigurator.swift in Sources */,
 				87F2769D286DFBCA00F5E2CD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +303,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		87F276A0286DFBCA00F5E2CD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				87F276A1286DFBCA00F5E2CD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		87F276A5286DFBCC00F5E2CD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,9 +440,9 @@
 				INFOPLIST_FILE = mBank/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,9 +468,9 @@
 				INFOPLIST_FILE = mBank/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +506,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8759864D287050DD004F99D3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8759864E287050DD004F99D3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8759864D287050DD004F99D3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 87F2768F286DFBCA00F5E2CD /* Project object */;
 }

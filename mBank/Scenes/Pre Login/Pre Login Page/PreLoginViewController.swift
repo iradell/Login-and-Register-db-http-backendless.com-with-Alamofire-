@@ -50,6 +50,7 @@ class PreLoginViewController: UIViewController {
         ca.setTitle("Create Account", for: .normal)
         ca.tintColor = .white
         ca.layer.cornerRadius = 10
+        ca.addTarget(self, action: #selector(createAccountTap), for: .touchUpInside)
         return ca
     }()
     
@@ -60,6 +61,7 @@ class PreLoginViewController: UIViewController {
         sc.setTitle("Sign in to continue", for: .normal)
         sc.setTitleColor(UIColor.black, for: .normal)
         sc.layer.cornerRadius = 10
+        sc.addTarget(self, action: #selector(logInTap), for: .touchUpInside)
         return sc
     }()
     
@@ -73,6 +75,7 @@ class PreLoginViewController: UIViewController {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -154,4 +157,21 @@ extension PreLoginViewController {
         ])
     }
     
+}
+
+extension PreLoginViewController {
+    
+    
+  @objc func createAccountTap() {
+      let registrationPageVC = UINavigationController(rootViewController: RegistrationViewController())
+      registrationPageVC.modalPresentationStyle = .fullScreen
+          self.present(registrationPageVC, animated: true, completion: nil)
+  }
+    
+    @objc func logInTap() {
+        let loginPageVC = UINavigationController(rootViewController: LoginViewController())
+        loginPageVC.modalPresentationStyle = .fullScreen
+            self.present(loginPageVC, animated: true, completion: nil)
+    }
+
 }

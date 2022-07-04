@@ -5,4 +5,9 @@
 //  Created by Tornike Bardadze on 02.07.22.
 //
 
-import Foundation
+import UIKit
+
+struct LoginModel : Encodable {
+    let login: String
+    let password: String
+}
