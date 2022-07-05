@@ -289,7 +289,7 @@ extension RegistrationViewController {
             if isSuccess {
                 print("User registered successfully")
                 self.errorTextField.textColor = .green
-                self.errorTextField.text = "User created successfully"
+                self.errorTextField.text = "Email confirmation was sent please confirm"
             } else {
                 self.errorTextField.text = "Please try again"
             }
